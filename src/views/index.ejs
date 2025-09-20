@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>habitaciones74</title>
+</head>
+<body>
+    <h1>habitaciones74</h1>
+    <ul>
+        <% Habitaciones74.forEach(habitacion => { %>
+            <li><%= habitacion.id %></li>
+            <li><%= habitacion.NoHabitacion %></li>
+            <li><%= habitacion.Capacidad %></li>
+            <li><%= habitacion.Precio %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>

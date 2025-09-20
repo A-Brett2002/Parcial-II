@@ -1,0 +1,22 @@
+{
+  "name": "parcial-ii",
+  "version": "1.0.0",
+  "description": "Parcial II BackEnd",
+  "license": "ISC",
+  "author": "Andy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "json": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

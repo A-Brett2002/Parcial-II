@@ -9,10 +9,7 @@
     <h1>habitaciones74</h1>
     <ul>
         <% Habitaciones74.forEach(habitacion => { %>
-            <li><%= habitacion.id %></li>
-            <li><%= habitacion.NoHabitacion %></li>
-            <li><%= habitacion.Capacidad %></li>
-            <li><%= habitacion.Precio %></li>
+            <a href="/habitaciones74/<%= habitacion.id %>"></a><li><%= habitacion.NoHabitacion %></li>
         <% }) %>
     </ul>
 </body>

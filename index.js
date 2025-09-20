@@ -13,6 +13,8 @@ app.set("views", path.join(__dirname, "src/views"));
 const mainRouter = require("./src/routes/main.routes");
 app.use("/", mainRouter);
 //Rutas Habitaciones
-app.use("/habitaciones74", require("./src/routes/habitaciones74.route"));
+app.use("/habitaciones74", require("./src/routes/habitacion74.router"));
+
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
